@@ -1,0 +1,77 @@
+css
+page {
+  background: #f7f7f7;
+}
+.rt{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
+.er{
+ 
+  width: 400px;
+  height: 150px;
+   background-color: aquamarine;
+   margin:20px auto;
+}
+.search{
+        width: 400px;
+        height: 30px;
+        background: #f7f7f7;
+        border-radius: 15px 15px 15px 15px;
+        border: 2px solid red;
+}
+input{
+  font-size: 15px;
+  width: 198px;
+  height: 26px;
+  background: #f7f7f7;
+  margin-left: 90px;
+}
+.all{
+  width: 150px;
+  height: 60px;
+  margin:50px 0px;
+}
+.class{
+  float: left;
+  line-height: 40px;
+    
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+      width: 60px;
+      height: 40px;
+      border: 1px solid red;
+      margin:10px;
+}  
+
+
+
+
+
+axml
+<view class="rt">
+  深圳书城
+</view>
+<view class="er">
+
+</view>
+<view class="select">
+  
+</view>
+<view class="search">
+<input placeholder="查询图书架位号、详情" />
+</view>
+<view class="all">
+  大家都在搜
+</view>
+<view class="class">红楼梦</view>
+<view class="class">笔</view>
+<view class="class">校服</view>
+<view class="class">耳机</view>
+<view class="class">大脑</view>
+<view class="class">拼图</view>
+<view class="class">三体</view>
+<view class="class">字帖</view>
+<view class="class">锅</view>
+<view class="class">绘本</view>
