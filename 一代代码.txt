@@ -1,0 +1,330 @@
+index系列文件
+index.axml:
+<template name="index">
+  <style src="./index.acss" /></style>
+</template>
+<view class="rt">
+  深圳书城
+</view>
+<view class="bigbox">
+  <image class="adopt" mode="aspectFill" src="/page/image/image/OIP-C.jpg" bindtap="imageTap" ></image>
+  <view class="box">
+  <navigator class="word" url="/page/indet/da">好书精选
+  </navigator>
+</view>
+</view> 
+
+index.acss:
+page {
+  background: #f7f7f7;
+}
+.rt{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
+.er{
+ 
+  width: 400px;
+  height: 150px;
+   background-color: aquamarine;
+   margin:20px auto;
+}
+.search{
+        width: 400px;
+        height: 30px;
+        background: #f7f7f7;
+        border-radius: 15px 15px 15px 15px;
+        border: 2px solid red;
+}
+input{
+  font-size: 15px;
+  width: 198px;
+  height: 26px;
+  background: #f7f7f7;
+  margin-left: 90px;
+}
+.all{
+  width: 150px;
+  height: 60px;
+  margin:50px 0px;
+}
+
+
+.bigbox{
+  position: relative;
+  width: 400px;
+  height: 170px;
+}
+.word{
+  position: absolute;
+  right:0px;
+  color: #f7f7f7;
+  width: 400px;
+  height: 170px;
+  float:left;
+  text-align: center;
+  line-height: 170px;
+ font-size: 26px;
+
+}
+.adopt{
+  position: absolute;
+  float: left;
+  width: 400px;
+  height: 170px;
+ 
+}
+.box{
+  position: absolute;
+  float: left;;
+  width: 400px;
+  height: 170px;
+  background-color: rgba(12, 11, 12, 0.4);
+}
+.bigbox :hover {
+  
+  background-image: url(/page/image/image/OIP-C.jpg);
+  
+}
+
+indet系列文件:
+da.axml:
+<template name="indet">
+  <style src="./da.acss" /></style>
+</template>
+<view class="theword">
+  在这里我们为你推荐了6本精选书籍
+</view>
+<view class="bigbox">
+  <navigator class="word" url="/advice/basic/basic">红楼梦</navigator>
+  
+  <view class="book">
+   
+  </view>
+</view>
+<view class="bigbox1">
+  <navigator class="word1" url="/advice/basic/basic">悲惨世界</navigator>
+  
+  <view class="book1">
+   
+  </view>
+</view>
+<view class="bigbox2">
+  <navigator class="word2" url="/advice/basic/basic">了不起的盖茨比</navigator>
+  
+  <view class="book2">
+   
+  </view>
+</view>
+<view class="bigbox3">
+  <navigator class="word3" url="/advice/basic/basic">海底两万里</navigator>
+  
+  <view class="book3">
+   
+  </view>
+</view>
+<view class="bigbox4">
+  <navigator class="word4" url="/advice/basic/basic">艾青诗选</navigator>
+  
+  <view class="book4">
+   
+  </view>
+</view>
+<view class="bigbox5">
+  <navigator class="word5" url="/advice/basic/basic">四世同堂</navigator>
+  
+  <view class="book5">
+   
+  </view>
+</view>
+ 
+da.acss:
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.theword{
+  background-image: url(/page/image/image/R-C\ \(4\).jpg);
+  margin: 30px auto;
+  font-size: 18px;
+      width: 380px;
+      height: 150px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+
+}
+.book{
+  margin: 0 auto;
+  width: 300px;
+  height: 120px;
+  background-image: url(/page/image/image/R-C\ \(5\).jpg);
+}
+.bigbox{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 340px;
+  height: 120px;
+ 
+}
+.word{
+  position: absolute;
+  transition: all 1s ease;
+  right:0px;
+  right:0px;
+  width: 340px;
+  height: 120px;
+  float:left;
+  text-align: center;
+  line-height: 120px;
+ font-size: 26px;}
+.bigbox :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book1{
+  margin:0 auto;
+  width: 300px;
+  height: 120px;
+ 
+  background-image: url(/advice/book/016ad3576ab82c0000012e7e41b18d.jpg@1280w_1l_2o_100sh.jpg);
+}
+.bigbox1{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 340px;
+  height: 120px;
+}
+.word1{
+  position: absolute;
+  transition: all 1s ease;
+  right:0px;
+  width: 340px;
+  height: 120px;
+  float:left;
+  text-align: center;
+  line-height: 120px;
+ font-size: 26px;}
+.bigbox1 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book2{
+  margin:0 auto;
+  width: 300px;
+  height: 120px;
+ 
+  background-image: url(/advice/book/OIP-C.jpg);
+}
+.bigbox2{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 340px;
+  height: 120px;
+}
+.word2{
+  color:tomato;
+  position: absolute;
+  transition: all 1s ease;
+  right:0px;
+  right:0px;
+  width: 340px;
+  height: 120px;
+  float:left;
+  text-align: center;
+  line-height: 120px;
+ font-size: 26px;}
+.bigbox2 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book3{
+  margin:0 auto;
+  width: 300px;
+  height: 120px;
+ 
+  background-image: url(/advice/book/v2-37e503e212fc6665440b834e07c2b55d_qhd.jpg);
+}
+.bigbox3{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 340px;
+  height: 120px;
+}
+.word3{
+  position: absolute;
+  color:tomato;
+  transition: all 1s ease;
+  transition: all 1s ease;
+  right:0px;
+  right:0px;
+  width: 340px;
+  height: 120px;
+  float:left;
+  text-align: center;
+  line-height: 120px;
+ font-size: 26px;}
+.bigbox3 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book4{
+  margin:0 auto;
+  width: 300px;
+  height: 120px;
+ 
+  background-image: url(/advice/book/R-C.jpg);
+}
+.bigbox4{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 340px;
+  height: 120px;
+}
+.word4{
+  position: absolute;
+  transition: all 1s ease;
+  right:0px;
+  width: 340px;
+  height: 120px;
+  float:left;
+  text-align: center;
+  line-height: 120px;
+ font-size: 26px;}
+.bigbox4 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book5{
+  margin:0 auto;
+  width: 300px;
+  height: 120px;
+ 
+  background-image: url(/advice/book/OIP-C\ \(1\).jpg);
+}
+.bigbox5{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 340px;
+  height: 120px;
+}
+.word5{
+  color:tomato;
+  position: absolute;
+  transition: all 1s ease;
+  right:0px;
+  width: 340px;
+  height: 120px;
+  float:left;
+  text-align: center;
+  line-height: 120px;
+ font-size: 26px;}
+.bigbox5 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+
+
