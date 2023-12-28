@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "Title/Title",
+    "category-nav/category-nav"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "behavior": {
+    "requestReferrerStrategy": "page",
+    "requestReferrerStyle": "full",
+    "requestDefaultEnableCookie": true,
+    "connectSocketDefaultMultiple": true
+  }
+}

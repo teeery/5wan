@@ -1,0 +1,13 @@
+<template name="search">
+    <style src="/search/search.acss"></style>
+  </template>
+<view class="search">
+  <view class="botton">
+    <image mode="scaleToFill" src=""  />
+  </view>
+  <input type="text" placeholder="请输入关键词" class="input">
+
+ 
+</view>
+
+
