@@ -1,0 +1,7 @@
+page{
+  background-image: url(/page/image/image/微信图片_20231228214901.png);
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
