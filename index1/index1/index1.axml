@@ -1,0 +1,35 @@
+<template name="indet">
+    <style src="pages/index/index.acss"></style>
+  </template>
+<view>
+  <navigator url="/floor/floor/floor" class="ng">
+    <view class="img"></view>
+  <view class="text"> 一楼 </view>
+  <view class="right">></view>
+  </navigator>
+
+  <navigator url="/floor1/floor1/floor1" class="ng">
+    <view class="img"></view>
+  <view class="text"> 二楼 </view>
+  <view class="right">></view>
+  </navigator>
+
+  <navigator url="/floo/floo/floo" class="ng">
+    <view class="img"></view>
+  <view class="text"> 三楼 </view>
+  <view class="right">></view>
+  </navigator>
+  
+  <navigator url="/floo1/floo1/floo1" class="ng">
+    <view class="img"></view>
+  <view class="text"> 四楼 </view>
+  <view class="right">></view>
+  </navigator>
+  
+  <navigator url="/floo2/floo2/floo2" class="ng">
+    <view class="img"></view>
+  <view class="text"> 五楼 </view>
+  <view class="right">></view>
+  </navigator>
+</view>
+

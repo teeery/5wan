@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index//index",
+    "page/indet/da",
+    "advice/basic/basic",
+    "page1/book1/book1",
+    "page2/page2/page2",
+    "page3/page3/page3",
+    "page4/page4/page4",
+    "page5/page5/page5",
+    "page6/page6/page6",
+    "index1/index1/index1",
+    "floor1/floor1/floor1",
+    "floor/floor/floor",
+    "floo/floo/floo",
+    "floo1/floo1/floo1",
+    "floo2/floo2/floo2",
+    "page7/page7/page7"
+    
+   
+  ],
+  
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "behavior": {
+    "requestReferrerStrategy": "page",
+    "requestReferrerStyle": "full"
+    
+  }
+}
