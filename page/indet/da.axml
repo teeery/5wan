@@ -1,0 +1,60 @@
+<template name="indet">
+  <style src="./da.acss" /></style>
+</template>
+<view class="theword">
+  在这里我们为你推荐了6本精选书籍
+</view>
+<view class="bigbox">
+  <navigator class="word" url="/page1/book1/book1"></navigator>
+  <view class="name1">
+    红楼梦
+  </view>
+  <view class="book">
+   
+  </view>
+</view>
+<view class="bigbox1">
+  <navigator class="word1" url="/page2/page2/page2"></navigator>
+  <view class="name1">
+    悲惨世界
+  </view>
+  <view class="book1">
+   
+  </view>
+</view>
+<view class="bigbox2">
+  <navigator class="word2" url="/page3/page3/page3"></navigator>
+  <view class="name1">
+    了不起的盖茨比
+  </view>
+  <view class="book2">
+   
+  </view>
+</view>
+<view class="bigbox3">
+  <navigator class="word3" url="/page4/page4/page4"></navigator>
+  <view class="name1">
+    海底两万里
+  </view>
+  <view class="book3">
+   
+  </view>
+</view>
+<view class="bigbox4">
+  <navigator class="word4" url="/page5/page5/page5"></navigator>
+  <view class="name1">
+    艾青诗选
+  </view>
+  <view class="book4">
+   
+  </view>
+</view>
+<view class="bigbox5">
+  <navigator class="word5" url="/page6/page6/page6"></navigator>
+  <view class="name1">
+    四世同堂
+  </view>
+  <view class="book5">
+   
+  </view>
+</view>

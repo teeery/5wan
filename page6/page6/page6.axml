@@ -1,0 +1,33 @@
+<template name="indet">
+  <style src="./book6.acss" /></style>
+</template>
+
+<view class="head">
+  <view class="headtitle">
+    搜索结果
+  </view>
+<view class="middle">
+  <view class="picture">  
+  </view>
+  <view class="right">
+    <view class="bookname">
+      书名:四世同堂
+    </view>
+    <view class="name">
+      作者:舒庆春
+  </view>
+  <view class="place">
+    位置:
+  </view>
+  </view>
+  <view class="introducebox">
+    <image class="photo1" mode="scaleToFill" src="/page/image/image/图层 1.jpg" />
+    <view class="introduce">
+      书的介绍
+    </view>
+  </view>
+  A区1号架
+  <view class="introduce1">
+    《四世同堂》是舒庆春的代表作之一，通过四代人的故事展现了中国社会变革中的沧桑巨变。
+  </view>
+</view></view>

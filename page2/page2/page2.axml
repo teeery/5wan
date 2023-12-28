@@ -1,0 +1,33 @@
+<template name="indet">
+  <style src="./book2.acss" /></style>
+</template>
+
+<view class="head">
+  <view class="headtitle">
+    搜索结果
+  </view>
+<view class="middle">
+  <view class="picture">  
+  </view>
+  <view class="right">
+    <view class="bookname">
+      书名:悲惨世界
+    </view>
+    <view class="name">
+      作者:雨果
+  </view>
+  <view class="place">
+    位置:A区1号架
+  </view>
+  </view>
+  <view class="introducebox">
+    <image class="photo1" mode="scaleToFill" src="/page/image/image/图层 1.jpg" />
+    <view class="introduce">
+      书的介绍
+    </view>
+  </view>
+  
+  <view class="introduce1">
+    《悲惨世界》是法国作家维克多·雨果的文学巨著，描绘了19世纪法国社会的种种不公与苦难。
+  </view>
+</view></view>

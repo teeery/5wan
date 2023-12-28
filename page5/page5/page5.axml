@@ -1,0 +1,33 @@
+<template name="indet">
+  <style src="./book5.acss" /></style>
+</template>
+
+<view class="head">
+  <view class="headtitle">
+    搜索结果
+  </view>
+<view class="middle">
+  <view class="picture">  
+  </view>
+  <view class="right">
+    <view class="bookname">
+      书名:艾青诗选
+    </view>
+    <view class="name">
+      作者:艾青
+  </view>
+  <view class="place">
+    位置:
+  </view>
+  </view>
+  <view class="introducebox">
+    <image class="photo1" mode="scaleToFill" src="/page/image/image/图层 1.jpg" />
+    <view class="introduce">
+      书的介绍
+    </view>
+  </view>
+  A区1号架
+  <view class="introduce1">
+    艾青是中国现代著名的诗人，他的诗歌表达了对生活、人民和理想的深切关怀。
+  </view>
+</view></view>

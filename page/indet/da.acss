@@ -1,0 +1,231 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+page{
+  background-image:  url(/page/image/image/mmexport1703683443797.jpg);
+  background-size: cover;
+}
+.theword{
+  background-image: url(/page/image/image/R-C\ \(4\).jpg);
+  margin: 30px auto;
+  font-size: 18px;
+      width: 380px;
+      height: 150px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+
+}
+.book{
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+  background-image: url(/page/image/image/微信图片_20231227152806.jpg);
+}
+.bigbox{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 160px;
+  height: 210px;
+ 
+}
+.name1{
+  float:left;
+  margin-top: 150px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.word{
+ 
+  position: absolute;
+  transition: all 1s ease;
+  width: 160px;
+  height: 200px;
+  float:left;
+  
+ }
+.bigbox :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book1{
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+  background-image: url(/page/image/image/微信图片_20231227152802.jpg);
+}
+.bigbox1{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 160px;
+  height: 210px;
+ 
+}
+.name1{
+  float:left;
+  margin-top: 150px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.word1{
+ 
+  position: absolute;
+  transition: all 1s ease;
+  width: 160px;
+  height: 200px;
+  float:left;
+  
+ }
+.bigbox1 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book2{
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+  background-image: url(/page/image/image/微信图片_20231227152751.jpg);
+}
+.bigbox2{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 160px;
+  height: 210px;
+ 
+}
+.name1{
+  color: white;
+  float:left;
+  margin-top: 150px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.word2{
+ 
+  position: absolute;
+  transition: all 1s ease;
+  width: 160px;
+  height: 200px;
+  float:left;
+  
+ }
+.bigbox2 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book3{
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+  background-image: url(/page/image/image/微信图片_20231227152813.jpg);
+}
+.bigbox3{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 160px;
+  height: 210px;
+ 
+}
+.name1{
+  float:left;
+  margin-top: 150px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.word3{
+ 
+  position: absolute;
+  transition: all 1s ease;
+  width: 160px;
+  height: 200px;
+  float:left;
+  
+ }
+.bigbox3 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book4{
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+  background-image: url(/page/image/image/微信图片_20231227152757.jpg);
+}
+.bigbox4{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 160px;
+  height: 210px;
+ 
+}
+.name1{
+  float:left;
+  margin-top: 150px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.word4{
+ 
+  position: absolute;
+  transition: all 1s ease;
+  width: 160px;
+  height: 200px;
+  float:left;
+  
+ }
+.bigbox4 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
+.book5{
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+  background-image: url(/page/image/image/微信图片_20231227152744.jpg);
+}
+.bigbox5{
+  background-color: skyblue;
+  position: relative;
+  margin:50px auto;
+  width: 160px;
+  height: 210px;
+ 
+}
+.name1{
+  float:left;
+  margin-top: 150px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.word5{
+ 
+  position: absolute;
+  transition: all 1s ease;
+  width: 160px;
+  height: 200px;
+  float:left;
+  
+ }
+.bigbox5 :hover {
+         box-shadow:  10px 10px 5px grey;
+}
