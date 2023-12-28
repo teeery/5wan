@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/floor1/floor1",
+    "pages/floor2/floor2",
+    "pages/floor3/floor3"
+  ],
+  "window": {
+    "defaultTitle": "楼层引导"
+  },
+  "behavior": {
+    "requestReferrerStrategy": "page",
+    "requestReferrerStyle": "full",
+    "requestDefaultEnableCookie": true,
+    "connectSocketDefaultMultiple": true
+  }
+}
